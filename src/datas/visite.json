@@ -1,0 +1,22 @@
+{
+  "visites": [
+    {
+      "id": 1,
+      "timestamp": 112561654,
+      "idMagasin": 10,
+      "idVisitor": 2,
+      "dateVisite": "15/03/2019",
+      "isVisiteDone": false,
+      "comment": "Etat parfait"
+    },
+    {
+      "id": 2,
+      "timestamp": 112561654,
+      "idMagasin": 21,
+      "idVisitor": 1,
+      "dateVisite": "25/03/2019",
+      "isVisiteDone": false,
+      "comment": "Etat lamentable"
+    }
+  ]
+}

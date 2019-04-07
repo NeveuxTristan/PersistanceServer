@@ -1,0 +1,154 @@
+{
+  "magasins": [
+    {
+      "id": 1,
+      "enseigne": "CARREFOUR",
+      "ville": "Laval"
+    },
+    {
+      "id": 2,
+      "enseigne": "CARREFOUR",
+      "ville": "Angers"
+    },
+    {
+      "id": 3,
+      "enseigne": "CARREFOUR",
+      "ville": "Nantes"
+    },
+    {
+      "id": 4,
+      "enseigne": "CARREFOUR",
+      "ville": "Paris"
+    },
+    {
+      "id": 5,
+      "enseigne": "CARREFOUR",
+      "ville": "Lyon"
+    },
+    {
+      "id": 6,
+      "enseigne": "CARREFOUR",
+      "ville": "Rouens"
+    },
+    {
+      "id": 7,
+      "enseigne": "CARREFOUR",
+      "ville": "Brest"
+    },
+    {
+      "id": 8,
+      "enseigne": "CARREFOUR",
+      "ville": "Vannes"
+    },
+    {
+      "id": 9,
+      "enseigne": "CARREFOUR",
+      "ville": "Rennes"
+    },
+    {
+      "id": 10,
+      "enseigne": "CARREFOUR",
+      "ville": "Strasbourg"
+    },
+    {
+      "id": 11,
+      "enseigne": "LECLERC",
+      "ville": "Laval"
+    },
+    {
+      "id": 12,
+      "enseigne": "LECLERC",
+      "ville": "Angers"
+    },
+    {
+      "id": 13,
+      "enseigne": "LECLERC",
+      "ville": "Nantes"
+    },
+    {
+      "id": 14,
+      "enseigne": "LECLERC",
+      "ville": "Paris"
+    },
+    {
+      "id": 15,
+      "enseigne": "LECLERC",
+      "ville": "Lyon"
+    },
+    {
+      "id": 16,
+      "enseigne": "LECLERC",
+      "ville": "Rouens"
+    },
+    {
+      "id": 17,
+      "enseigne": "LECLERC",
+      "ville": "Brest"
+    },
+    {
+      "id": 18,
+      "enseigne": "LECLERC",
+      "ville": "Vannes"
+    },
+    {
+      "id": 19,
+      "enseigne": "LECLERC",
+      "ville": "Rennes"
+    },
+    {
+      "id": 20,
+      "enseigne": "LECLERC",
+      "ville": "Strasbourg"
+    },
+    {
+      "id": 21,
+      "enseigne": "SUPER_U",
+      "ville": "Laval"
+    },
+    {
+      "id": 22,
+      "enseigne": "SUPER_U",
+      "ville": "Angers"
+    },
+    {
+      "id": 23,
+      "enseigne": "SUPER_U",
+      "ville": "Nantes"
+    },
+    {
+      "id": 24,
+      "enseigne": "SUPER_U",
+      "ville": "Paris"
+    },
+    {
+      "id": 25,
+      "enseigne": "SUPER_U",
+      "ville": "Lyon"
+    },
+    {
+      "id": 26,
+      "enseigne": "SUPER_U",
+      "ville": "Rouens"
+    },
+    {
+      "id": 27,
+      "enseigne": "SUPER_U",
+      "ville": "Brest"
+    },
+    {
+      "id": 28,
+      "enseigne": "SUPER_U",
+      "ville": "Vannes"
+    },
+    {
+      "id": 29,
+      "enseigne": "SUPER_U",
+      "ville": "Rennes"
+    },
+    {
+      "id": 30,
+      "enseigne": "SUPER_U",
+      "ville": "Strasbourg"
+    }
+  ]
+}

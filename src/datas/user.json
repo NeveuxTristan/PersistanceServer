@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "PERROUAULT",
+      "firstname": "Jeremy",
+      "function": "MANAGER"
+    },
+    {
+      "id": 2,
+      "name": "NEVEUX",
+      "firstname": "Tristan",
+      "function": "SELLER",
+      "managerid": 1
+    },
+    {
+      "id": 3,
+      "name": "DOP",
+      "firstname": "Kay",
+      "function": "SELLER",
+      "managerid": 1
+    }
+  ]
+}
