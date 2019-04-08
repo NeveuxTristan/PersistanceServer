@@ -2,10 +2,12 @@ package share.dataObject;
 
 import share.enumUtils.EnumEnseigne;
 
+import java.io.Serializable;
+
 /**
  * Classe représentant un magasin dans le système
  */
-public class Magasin {
+public class Magasin implements Serializable {
 
     /**
      * Identifiant unique du magasin

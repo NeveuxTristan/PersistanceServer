@@ -1,11 +1,11 @@
 package share.dataObject;
 
-import java.util.Date;
+import java.io.Serializable;
 
 /**
  * Classe représentant une visite dans le sytème
  */
-public class Visite {
+public class Visite implements Serializable {
 
     /**
      * Date de création de la visite

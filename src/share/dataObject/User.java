@@ -2,10 +2,12 @@ package share.dataObject;
 
 import share.enumUtils.EnumUser;
 
+import java.io.Serializable;
+
 /**
  * Classe de base d'un utilisateur
  */
-public abstract class User {
+public abstract class User implements Serializable {
 
     /**
      * Id de l'utilisateur
