@@ -16,7 +16,7 @@ public class JsonLoaderImpl implements JsonLoader {
 
     /// -- Définition des chemins --- ///
 
-    private final static String ROOT_FOLDER = "C:\\Users\\Tristan\\IdeaProjects\\PersistanceServer\\src\\datas";
+    private final static String ROOT_FOLDER = "C:\\Users\\Neveux_du_Geniebre\\IdeaProjects\\PersistanceServer\\src\\datas";
     private final static String MAGASIN_FILE = ROOT_FOLDER + "\\magasin.json";
     private final static String USER_FILE = ROOT_FOLDER + "\\user.json";
     private final static String VISITE_FILE = ROOT_FOLDER + "\\visite.json";
@@ -56,7 +56,7 @@ public class JsonLoaderImpl implements JsonLoader {
             o = arr.getJSONObject(i);
             m = new Magasin();
             m.setId(o.getInt("id"));
-            m.setVille(o.getString("ville"));
+            m.setVille(o.getInt("villeId"));
             m.setEnseigne(EnumEnseigne.getEnumFromString(o.getString("enseigne")));
             magasins.add(m);
         }
@@ -105,7 +105,6 @@ public class JsonLoaderImpl implements JsonLoader {
             o = arr.getJSONObject(i);
             v = new Visite();
             v.setId(o.getInt("id"));
-            v.setTimestamp(o.getLong("timestamp"));
             v.setIdMagasin(o.getInt("idMagasin"));
             v.setIdVisitor(o.getInt("idVisitor"));
             v.setVisiteDone(o.getBoolean("isVisiteDone"));

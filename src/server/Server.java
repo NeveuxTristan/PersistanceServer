@@ -14,11 +14,12 @@ public class Server {
     private ServerSocket server;
 
     public Server(String ipAddress) throws Exception {
-        if (ipAddress != null && !ipAddress.isEmpty())
-            this.server = new ServerSocket(0, 1, InetAddress.getByName(ipAddress));
-        else
-            this.server = new ServerSocket(0, 1, InetAddress.getLocalHost());
         DataManager.INSTANCE.loadDatas();
+        this.server = new ServerSocket(12451);
+//        if (ipAddress != null && !ipAddress.isEmpty())
+//            this.server = new ServerSocket(0, 1, InetAddress.getByName(ipAddress));
+//        else
+//            this.server = new ServerSocket(0, 1, InetAddress.getLocalHost());
     }
 
     public void listen() throws Exception {

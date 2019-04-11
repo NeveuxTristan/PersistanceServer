@@ -22,7 +22,7 @@ public class Magasin implements Serializable {
     /**
      * Ville du magasin
      */
-    private String ville;
+    private int idVille;
 
     public Magasin() {
     }
@@ -43,16 +43,16 @@ public class Magasin implements Serializable {
         this.enseigne = enseigne;
     }
 
-    public String getVille() {
-        return ville;
+    public int getVille() {
+        return idVille;
     }
 
-    public void setVille(String ville) {
-        this.ville = ville;
+    public void setVille(int ville) {
+        this.idVille = ville;
     }
 
     public String getDisplayName() {
-        return this.enseigne + " " + this.ville;
+        return this.enseigne + "";
     }
 
     @Override
